@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #00FFCC; /* Bright Cyan */
+    text-shadow: 0 0 10px #00FFCC, 0 0 20px #00FF99, 0 0 30px #00CC99; 
+    animation: glow 1.5s infinite alternate;
+    margin-top: 50px;
+}
+
+/* Glowing Effect Animation */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00FFCC, 0 0 20px #00FF99, 0 0 30px #00CC99;
+    }
+    to {
+        text-shadow: 0 0 20px #00FF99, 0 0 30px #00CC99, 0 0 40px #009966;
+    }
+}
+
+p {
+    font-size: 18px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent box */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD700; /* Gold for links */
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin: 10px;
+}
+
+a:hover {
+    color: #FF4500; /* Orange on Hover */
+    text-shadow: 2px 2px 10px white;
+}
